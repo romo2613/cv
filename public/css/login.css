@@ -1,0 +1,22 @@
+
+.fondo-animado{
+    background: linear-gradient(45deg, #64c1ff, #0091ea, #311b92, #000063);
+    background-size: 400% 400%;
+    -webkit-animation: degradado 5s ease infinite;
+            animation: degradado 5s ease infinite;
+}
+
+@-webkit-keyframes degradado{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+
+}
+
+@keyframes degradado{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+
+}
+
