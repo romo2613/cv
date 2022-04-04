@@ -48,7 +48,7 @@
                     </button>
 
                     <x-jet-button class="ml-4">
-                        {{ __('Log in') }}
+                        {{ __('auth.Log in') }}
                     </x-jet-button>
                 </div>
             </form>
